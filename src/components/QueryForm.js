@@ -12,7 +12,7 @@ const QueryForm = ({ onSubmit }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} style={{ marginBottom: '2rem' }}>
+    <form onSubmit={handleSubmit} className="query-form">
       <div className="form-group">
         <label htmlFor="query">Enter your query:</label>
         <input

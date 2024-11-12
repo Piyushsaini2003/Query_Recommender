@@ -4,7 +4,7 @@ import React from 'react';
 
 const QueryRecommendation = ({ recommendations }) => {
   if (!recommendations || recommendations.length === 0) {
-    return <p>No recommendations at this time.</p>;
+    return <p className="no-recommendations">No recommendations at this time.</p>;
   }
 
   return (

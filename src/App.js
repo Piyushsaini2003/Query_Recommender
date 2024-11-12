@@ -221,8 +221,11 @@ function App() {
           {/* Main content container */}
           <div className="main-content">
             <div className="glass-container">
+              {/* Center the QueryForm */}
               <QueryForm onSubmit={handleQuerySubmit} />
-              {message && <p>{message}</p>}
+
+              {/* Update the message display */}
+              {message && <p className="submission-message">{message}</p>}
 
               {/* Display Content-Based Recommendations */}
               <div className="section">
